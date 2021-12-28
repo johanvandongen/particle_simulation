@@ -1,2 +1,3 @@
 # particleSimulation
-In this simulation, all cells in the grid follow certain rules that match their particle type. This cellular automata can give some nice behaviour
+In this simulation there is a grid of cells. Every x seconds the grid gets updated to a new state, and for that update every cell will follow some specific rule set according to their particle type. Every particle determines its next move according to its 8 neighbours. Sand for example will always move down if the particle beneath it is empty. This also goes under the name of cellular automata if im not mistaken.
+![project Thumbnail](https://github.com/johanvandongen/particleSimulation/blob/main/particleSimulationThumbnail.png)
